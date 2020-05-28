@@ -21,3 +21,4 @@ the tutorials via [nbviewer](https://nbviewer.jupyter.org/) to ensure a proper r
 
 - [Model-based cluster analysis](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-mixtures/GaussianMixtures.ipynb). This tutorial considers how Gaussian mixture models may be used for cluster analysis; it implements the expectation maximization (EM) learning algorithm, and introduces the evidence lower bound, as well as the Baysian information criterion (BIC) and the integrated complete-data likelihood (ICL), for model selection.
 
+## Sensitivity analysis
