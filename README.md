@@ -9,10 +9,14 @@ the tutorials via [nbviewer](https://nbviewer.jupyter.org/) to ensure a proper r
 
 ## Linear regression
 
-- [Linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/LinearRegression.ipynb). This tutorial introduces linear regression; first, from a maximum likelihood estimation (MLE) perspective, and second, from a Bayesian perspective. In both cases, the tutorial considers a selection of different learning algorithms. 
+- [Linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/LinearRegression.ipynb). This tutorial introduces linear regression; first, from a maximum likelihood estimation (MLE) perspective, and second, from a Bayesian perspective. In both cases, the tutorial implements a selection of different learning algorithms. 
 
 - [Bayesian linear regression with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/exStan_BayesianLinearRegression.ipynb). This tutorial show how to implement Bayesian linear regression models using the probabilistic programming language [Stan](https://mc-stan.org/).
 
 ## Gaussian processes
 
-- [Gaussian process regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-processes/GaussianProcessRegression.ipynb). This tutorial introduces linear regression; first, from a maximum likelihood estimation (MLE) perspective, and second, from a Bayesian perspective. In both cases, the tutorial considers a selection of different learning algorithms. 
+- [Gaussian process regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-processes/GaussianProcessRegression.ipynb). This tutorial introduces Gaussian process regression; first, in a single-output setting, and second, in a multi-output setting. For the single-output case, the tutorial implements a selection of different learning algorithms, and some of the capabilities of the open source software [GPy](https://sheffieldml.github.io/GPy/) shown for both cases.
+
+## Gaussian mixture models
+
+
