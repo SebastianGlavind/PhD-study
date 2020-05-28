@@ -5,7 +5,7 @@ the tutorials via [nbviewer](https://nbviewer.jupyter.org/) to ensure a proper r
 
 ## Bayesian networks
 
-- [Bayesian networks - structure learning from complete data](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/sLearn_fullyObs.ipynb). This tutorial demonstrates how to learn the graph structure and optimal discretization policy of a Bayesian network (BN) representation from complete / fully observed data, using my toolbox [*sLearningAndDiscretizationTools*](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/sLearningAndDiscretizationTools.R), which is a wrapper for the [bnlearn](https://www.bnlearn.com/) package.
+- [Bayesian networks - structure learning from complete data](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/sLearn_fullyObs.ipynb). This tutorial demonstrates how to learn the graph structure and optimal discretization policy of a Bayesian network (BN) representation from complete / fully observed data, using my toolbox [sLearningAndDiscretizationTools](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/sLearningAndDiscretizationTools.R), which is a wrapper for the [bnlearn](https://www.bnlearn.com/) package.
 
 ## Linear regression
 
