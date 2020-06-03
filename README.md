@@ -19,6 +19,9 @@ the tutorials via [nbviewer](https://nbviewer.jupyter.org/) to ensure a proper r
 
 - [EM for Bayesian linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/exEM_BayesLinReg.ipynb). This tutorial considers how the expectation maximization (EM) algorithm may be used to learn a parameters setting for a Bayesian linear regression model.
 
+## Bayesian hierarchical models
+...
+
 ## Gaussian processes
 
 - [Gaussian process regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-processes/GPR.ipynb). This tutorial introduces Gaussian process regression; first, in a single-output setting, and second, in a multi-output setting. For the single-output case, the tutorial implements a selection of different learning algorithms, and some of the capabilities of the open source software [GPy](https://sheffieldml.github.io/GPy/) shown for both cases.
