@@ -17,7 +17,7 @@ the tutorials via [nbviewer](https://nbviewer.jupyter.org/) to ensure a proper r
 
 - [Bayesian linear regression with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/exStan_BayesLinReg.ipynb). This tutorial show how to implement Bayesian linear regression models using the probabilistic programming language [Stan](https://mc-stan.org/).
 
-- [EM for Bayesian linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-mixtures/exEM_GMMs.ipynb). This tutorial considers how the expectation maximization (EM) algorithm may be used to learn a parameters setting for a Bayesian linear regression model.
+- [EM for Bayesian linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/exEM_BayesLinReg.ipynb). This tutorial considers how the expectation maximization (EM) algorithm may be used to learn a parameters setting for a Bayesian linear regression model.
 
 ## Gaussian processes
 
