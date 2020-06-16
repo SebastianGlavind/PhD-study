@@ -5,7 +5,7 @@ the tutorials via [nbviewer](https://nbviewer.jupyter.org/) to ensure a proper r
 
 ## Bayesian networks
 
-The tutorials in this section are implemented in R;
+The following toolboxes and tutorials are implemented in R;
 
 - [Structure learning and dynamic discretization toolbox - `sLearningAndDiscretizationTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/sLearningAndDiscretizationTools.R). The toolbox is a wrapper for the [`bnlearn`](https://www.bnlearn.com/) package, which implements the underlaying score-based routines for structure learning.
 
@@ -25,7 +25,7 @@ The tutorials in this section are implemented in R;
 
 ## Linear regression
 
-The tutorials in this section are implemented in Python;
+The following tutorials are implemented in Python;
 
 - [Linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/LinReg.ipynb). This tutorial introduces linear regression; first, from a maximum likelihood estimation (MLE) perspective, and second, from a Bayesian perspective. In both cases, the tutorial implements a selection of different learning algorithms. 
 
@@ -38,7 +38,7 @@ The tutorials in this section are implemented in Python;
 
 ## Gaussian processes
 
-The tutorials in this section are implemented in Python;
+The following tutorials are implemented in Python;
 
 - [Gaussian process regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-processes/GPR.ipynb). This tutorial introduces Gaussian process regression; first, in a single-output setting, and second, in a multi-output setting. For the single-output case, the tutorial implements a selection of different learning algorithms, and some of the capabilities of the open source software package [`GPy`](https://sheffieldml.github.io/GPy/) are demonstrated for both cases.
 
@@ -47,7 +47,7 @@ The tutorials in this section are implemented in Python;
 
 ## Gaussian mixture models
 
-The tutorials in this section are implemented in Python;
+The following tutorials are implemented in Python;
 
 - [EM for Gaussian mixtures](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-mixtures/exEM_GMMs.ipynb). This tutorial considers how Gaussian mixture models may be used for cluster analysis; it implements the expectation maximization (EM) learning algorithm, and introduces the evidence lower bound, as well as the Bayesian information criterion (BIC) and the integrated complete-data likelihood (ICL), for model selection.
 
