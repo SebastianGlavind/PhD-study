@@ -292,5 +292,75 @@ EM_multicore = function(BN, dDATA, n_iss, no_cores, FITTED, quiet, tol, max_ite)
     MAP_new = myMAP(PC = PC_new) # M-step
     FITTED_new = custom.fit(BN, dist = MAP_new) # bnlearn object
   }
-  return(FITTED_new)
+  return(list(FITTED=FITTED_new, PC=PC_new, n_ite = n_ite))
+}
+
+
+# Gibbs sampling ----------------------------------------------------------
+
+Gibbs_multicore = function(BN, dData, n_iss, no_cores, fitted0, dData0, quiet, n_samp){
+  require('bnlearn')
+  require('gRain')
+  require('doParallel')
+  
+  nodes = names(dData) # variable names
+  junction0 = compile(as.grain(fitted0)) # fitted BN (gRain)
+  
+  # same for all iterations: i,j
+  n_inst = nrow(dData); # data instances
+  id_NA = which(is.na(dData), arr.ind=TRUE) # NA enteries in dData (original data set)
+  
+  # initialize collecter lists
+  dDATA_list = list(); dDATA_list[[1]] = dData0; # collect generated complete data sets
+  bnFIT_list = list(); bnFIT_list[[1]] = fitted0; # collect corr. bn.fit objects
+  
+  for (i in 1:n_samp){
+    
+    if (quiet == F){
+      print(paste0("iteration ", i))
+    }
+    
+    if (i == 1){
+      dData1 = dData0; # initial data set
+      junction1 = junction0; # initial, fitted BN (gRain)
+    }
+    
+    # initialize cluster
+    cl = makeCluster(no_cores, outfile="")
+    clusterExport(cl, varlist=c('id_NA', 'dData1', 'nodes', 'junction1'), envir=environment()) # send input to slaves
+    junk1 = clusterEvalQ(cl, library(gRain)) # load package to workers
+
+    # # Impute missing values 
+    data_ij_list = parLapply(cl, 1:n_inst, function(j){
+      na_inst_j = which(id_NA[,1] %in% j) # NAs in instance j of the data set
+      n_NAj = length(na_inst_j) # no. of NAs in instance j
+      xj = as.matrix(dData1[j, ]); # instance, j (matrix - usuable in gRain)
+      if (n_NAj > 0){
+        for (k in 1:n_NAj){
+          id_NAjk = id_NA[na_inst_j[k], ]
+          node_xjk = nodes[id_NAjk[2]] # node in instance j,k
+          jres1k = setEvidence(junction1, nodes = nodes[-id_NAjk[2]], states = xj[-id_NAjk[2]]) # define evidence (NB! Actually, only obs of mb is needed)
+          QG1k = querygrain(jres1k, nodes = node_xjk)[[node_xjk]] # Variable distribution given evidence: P(xj | ej)
+          state_xjk = sample(attr(QG1k, "dimnames")[[node_xjk]], size = 1, replace = FALSE, prob = QG1k); # sample from states of xj, given P(xj | ej)
+          xj[id_NAjk[2]] = state_xjk; # update instance vector
+        }
+      }
+      res = xj;
+      return(res)
+    })
+    stopCluster(cl) # stop cluster
+    data_ij_matrix = do.call(rbind, data_ij_list) # arrange outputs in a matrix
+    dData1[1:n_inst,] = as.data.frame(data_ij_matrix)[1:n_inst,] # update discrete date set
+    
+    # Fit parameters
+    PC1 = posterior_counts(bn_map = fitted0, ddata = dData1, n_iss = n_iss) # //*pLearningTools*//
+    pSample1 = myDirichletSampler(PC = PC1) # //*pLearningTools*//
+    bnFIT1 = custom.fit(BN, dist = pSample1) # fitted BN (bnlearn object)
+    junction1 = compile(as.grain(bnFIT1)) # fitted BN (gRain)
+    
+    # Book keeping
+    bnFIT_list[[i+1]] = bnFIT1;
+    dDATA_list[[i+1]] = dData1;
+  }
+  return(list(bnFIT_list=bnFIT_list, dDATA_list=dDATA_list))
 }
