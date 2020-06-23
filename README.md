@@ -43,7 +43,10 @@ The following tutorials are implemented in Python;
 - [Gaussian process regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-processes/GPR.ipynb). This tutorial introduces Gaussian process regression; first, in a single-output setting, and second, in a multi-output setting. For the single-output case, the tutorial implements a selection of different learning algorithms, and some of the capabilities of the open source software package [`GPy`](https://sheffieldml.github.io/GPy/) are demonstrated for both cases.
 
 ## Neural networks
-....
+
+The following tutorials are implemented in Python;
+
+- [Neural network regression using tensorflow and keras](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Neural-networks/NNReg.ipynb). This tutorial introduces neural network regression with tensorflow and keras; first, in a single-output setting; and second, in a multi-output setting. Finally, the tutorial considers hyperparameters tuning in general models. 
 
 ## Gaussian mixture models
 
