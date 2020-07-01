@@ -34,7 +34,7 @@ The following tutorials are implemented in Python;
 - [EM for Bayesian linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/exEM_BayesLinReg.ipynb). This tutorial considers how the expectation maximization (EM) algorithm may be used to learn a parameter setting for a Bayesian linear regression model.
 
 ## Bayesian hierarchical models
-...
+*COMMING SOON*
 
 ## Gaussian processes
 
@@ -55,4 +55,4 @@ The following tutorials are implemented in Python;
 - [EM for Gaussian mixtures](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-mixtures/exEM_GMMs.ipynb). This tutorial considers how Gaussian mixture models may be used for cluster analysis; it implements the expectation maximization (EM) learning algorithm, and introduces the evidence lower bound, as well as the Bayesian information criterion (BIC) and the integrated complete-data likelihood (ICL), for model selection.
 
 ## Sensitivity analysis
-...
+*COMMING SOON*
