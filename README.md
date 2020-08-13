@@ -48,6 +48,9 @@ The following tutorials are implemented in Python;
 
 - [Neural network regression using tensorflow and keras](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Neural-networks/NNReg.ipynb). This tutorial introduces neural network regression with tensorflow and keras; first, in a single-output setting; and second, in a multi-output setting. Finally, the tutorial considers hyperparameters tuning in general models. 
 
+## Gradient boosting
+*TODO*
+
 ## Gaussian mixture models
 
 The following tutorials are implemented in Python;
