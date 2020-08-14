@@ -46,7 +46,7 @@ The following tutorials are implemented in Python;
 
 The following tutorials are implemented in Python;
 
-- [Neural network regression using keras and tensorflow](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Neural-networks/NNReg.ipynb). This tutorial introduces neural network regression with keras and tensorflow by considering the Boston Housing data set; first, in a single-output setting; and second, in a multi-output setting. Finally, the tutorial considers hyperparameters tuning in general models using random search cross-validation. 
+- [Neural network regression using keras and tensorflow](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Neural-networks/NNReg.ipynb). This tutorial introduces neural network regression with keras and tensorflow by considering the Boston housing data set; first, in a single-output setting; and second, in a multi-output setting. Finally, the tutorial considers hyperparameters tuning in general models using random search cross-validation. 
 
 ## Gradient boosting
 *TODO*
