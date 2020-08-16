@@ -62,3 +62,6 @@ The following tutorials are implemented in Python;
 
 ## Sensitivity analysis
 *TODO*
+
+## Dimensionality reduction
+*TODO*
