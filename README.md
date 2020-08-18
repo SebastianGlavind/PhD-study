@@ -48,7 +48,7 @@ The following tutorials are implemented in Python;
 
 - [Neural network regression using keras and tensorflow](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Neural-networks/NNReg_BostonHousing.ipynb). This tutorial introduces neural network regression with keras and tensorflow by considering the Boston housing data set; first, in a single-output setting; and second, in a multi-output setting. Finally, the tutorial considers hyperparameters tuning in general models using random search cross-validation. 
 
-- [Neural network classification using keras and tensorflow](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Neural-networks/NNReg_BostonHousing.ipynb). This tutorial introduces neural network classification with keras and tensorflow by considering the Wine recognition data set. The tutorial first study how a neural network is implemented for classification tasks and then considers how to tune hyperparameters in general models using random search cross-validation. 
+- [Neural network classification using keras and tensorflow](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Neural-networks/NNClas_Wine.ipynb). This tutorial introduces neural network classification with keras and tensorflow by considering the Wine recognition data set. The tutorial first study how a neural network is implemented for classification tasks and then considers how to tune hyperparameters in general models using random search cross-validation. 
 
 ## Gradient boosting
 
