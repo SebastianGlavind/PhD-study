@@ -75,8 +75,7 @@ The following tutorials are implemented in Python;
 *TODO*
 
 
-***
 ## References
-
+***
 Sebastian T. Glavind, Henning Brüske and Michael H. Faber, “On normalized fatigue crack growth modeling”, in proceedings of the ASME 2020 39th International Conference on Ocean, Offshore and Arctic Engineering (OMAE2020), OMAE2020-18613, 2020.
 ***
