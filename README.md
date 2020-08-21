@@ -34,7 +34,10 @@ The following tutorials are implemented in Python;
 - [EM for Bayesian linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/exEM_BayesLinReg.ipynb). This tutorial considers how the expectation maximization (EM) algorithm may be used to learn a parameter setting for a Bayesian linear regression model.
 
 ## Bayesian hierarchical models
-*TODO*
+
+The following tutorials are implemented in Python;
+
+- [Bayesian hierarchical models with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Hierarchical-models/HierModel_OMAE2020.ipynb). This tutorial show how to implement Bayesian hierarchical models using the probabilistic programming language [Stan](https://mc-stan.org/) by considering the fatigue data set studied Glavind et al. (2020).  
 
 ## Gaussian processes
 
@@ -70,3 +73,8 @@ The following tutorials are implemented in Python;
 
 ## Dimensionality reduction
 *TODO*
+
+## References
+***
+Sebastian T. Glavind, Henning Brüske and Michael H. Faber, “On normalized fatigue crack growth modeling”, in proceedings of the ASME 2020 39th International Conference on Ocean, Offshore and Arctic Engineering (OMAE2020), OMAE2020-18613, 2020.
+***
