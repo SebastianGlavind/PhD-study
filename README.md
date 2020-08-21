@@ -37,7 +37,7 @@ The following tutorials are implemented in Python;
 
 The following tutorials are implemented in Python;
 
-- [Bayesian hierarchical models with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Hierarchical-models/HierModel_OMAE2020.ipynb). This tutorial show how to implement Bayesian hierarchical models using the probabilistic programming language [Stan](https://mc-stan.org/) by considering the fatigue data set studied Glavind et al. (2020).  
+- [Bayesian hierarchical models with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Hierarchical-models/HierModel_OMAE2020.ipynb). This tutorial show how to implement Bayesian hierarchical regression models using the probabilistic programming language [Stan](https://mc-stan.org/) by considering the fatigue data set studied Glavind et al. (2020).  
 
 ## Gaussian processes
 
@@ -74,7 +74,9 @@ The following tutorials are implemented in Python;
 ## Dimensionality reduction
 *TODO*
 
-## References
+
 ***
+## References
+
 Sebastian T. Glavind, Henning Brüske and Michael H. Faber, “On normalized fatigue crack growth modeling”, in proceedings of the ASME 2020 39th International Conference on Ocean, Offshore and Arctic Engineering (OMAE2020), OMAE2020-18613, 2020.
 ***
