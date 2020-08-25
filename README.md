@@ -7,19 +7,27 @@ the tutorials via [nbviewer](https://nbviewer.jupyter.org/) to ensure a proper r
 
 The following toolboxes and tutorials are implemented in R;
 
+### Toolboxes
+
 - [Structure learning and dynamic discretization toolbox - `sLearningAndDiscretizationTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/sLearningAndDiscretizationTools.R). The toolbox is a wrapper for the [`bnlearn`](https://www.bnlearn.com/) package, which implements the underlaying score-based routines for structure learning.
 
 - [Parameter learning toolbox - `pLearningTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/pLearningTools.R). The toolbox is a wrapper for the [`bnlearn`](https://www.bnlearn.com/) package.
 
+### Structure learning
+
 - [Bayesian networks - structure learning and automated discretization form complete data](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/BNs_sLearn_fullyObs.ipynb). This tutorial demonstrates how to learn the graph structure and optimal discretization policy of a Bayesian network (BN) representation from complete / fully observed data, using my toolbox [`sLearningAndDiscretizationTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/sLearningAndDiscretizationTools.R). 
 
 - [Bayesian networks - structure learning and automated discretization from incomplete data](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/BNs_sLearn_partiallyObs.ipynb). This tutorial demonstrates how to learn the graph structure and optimal discretization policy of a Bayesian network (BN) representation from incomplete / partially observed data, using my toolbox [`sLearningAndDiscretizationTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/sLearningAndDiscretizationTools.R).
+
+### Parameter learning
 
 - [Bayesian networks - parameter learning from complete data](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/BNs_pLearn_fullyObs.ipynb). This tutorial demonstrates how to learn the parameters of a Bayesian network (BN) representation from complete / fully observed data, using my toolbox [`pLearningTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/pLearningTools.R). 
 
 - [Bayesian networks - EM for parameter learning from incomplete data](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/BNs_pLearn_EM_partiallyObs.ipynb). This tutorial demonstrates how to learn the parameters of a Bayesian network (BN) representation from incomplete / partially observed data using the expectation-maximization (EM) algorithm. An implementation of the EM algorithm is found in my toolbox [`pLearningTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/pLearningTools.R). 
 
 - [Bayesian networks - Gibbs sampling for parameter learning from incomplete data](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/BNs_pLearn_Gibbs_partiallyObs.ipynb). This tutorial demonstrates how to learn the parameters of a Bayesian network (BN) representation from incomplete / partially observed data using Gibbs sampling. The implementation makes use of some functionalities from my toolbox [`pLearningTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/pLearningTools.R). 
+
+### Inference
 
 - [Bayesian networks - inference for discrete Bayesian networks](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/BNs_inference.ipynb). This tutorial demonstrates how to make inferences using general bn.fit objects; these may be learned using the [`bnlearn`](https://www.bnlearn.com/) package alone, or in combination with my toolboxes [`sLearningAndDiscretizationTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/sLearningAndDiscretizationTools.R) and [ `pLearningTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/pLearningTools.R), which are wrappers for the `bnlearn` package. For this tutorial we will use the inference functionalities of the `bnlearn` package, as well as the [`gRain`](http://people.math.aau.dk/~sorenh/software/gR/) package to make maximum a-posteriori inferences, as well as posterior inferences that account for parameter uncertainties. 
 
