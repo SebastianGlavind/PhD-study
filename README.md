@@ -84,6 +84,8 @@ The following tutorials are implemented in Python;
 
 The following tutorials are implemented in Python;
 
+- [Variance-based sensitivity analysis for independent inputs](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Sensitivity-analysis/SA_varianceBased_independentInputs.ipynb). This tutorial implements a set of methods, which are applicable when the inputs are independent. First, a surrogate-based method is considered that decomposes the variance based on linear regression considerations. Second, two simulation-based methods are introduced; the first method performs conditional sampling by binning the input space, and the second method performs efficient conditional sampling.  
+
 - [Variance-based sensitivity analysis for correlated inputs](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Sensitivity-analysis/SA_varianceBased_correlatedInputs.ipynb). This tutorial implements a set of methods, which are applicable when the inputs are correlated. First, two surrogate-based methods are considered; the first method decomposed the variance based on (linear) regression considerations, and the second method decomposes the variance based on a polynomial chaos expansion. Second, two simulation-based methods are introduced; the first method performs conditional sampling by binning the input space, and the second method performs conditional sampling for randomly sampled input realizations.  
 
 ## Hyperparameter tuning
