@@ -53,7 +53,7 @@ The following tutorials are implemented in Python;
 
 - [Gaussian process regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-processes/GPR.ipynb). This tutorial introduces Gaussian process regression; first, in a single-output setting, and second, in a multi-output setting. For the single-output case, the tutorial implements a selection of different learning algorithms, and some of the capabilities of the open source software package [`GPy`](https://sheffieldml.github.io/GPy/) are demonstrated for both cases.
 
-- Bayesian optimization using a Gaussian process prior, see the tutorials below on *Gradient boosting regression using XGBoost* and *Gradient boosting classification using XGBoost*, respectively.
+See also **Hyperparameter tuning, model selection and AutoML** below.
 
 ## Neural networks
 
@@ -87,7 +87,8 @@ The following tutorials are implemented in Python;
 - [Variance-based sensitivity analysis for correlated inputs](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Sensitivity-analysis/SA_varianceBased_correlatedInputs.ipynb). This tutorial implements a set of methods, which are applicable when the inputs are correlated. First, two surrogate-based methods are considered; the first method decomposed the variance based on (linear) regression considerations, and the second method decomposes the variance based on a polynomial chaos expansion. Second, two simulation-based methods are introduced; the first method performs conditional sampling by binning the input space, and the second method performs conditional sampling for randomly sampled input realizations.  
 
 ## Hyperparameter tuning, model selection and AutoML 
-*TODO*
+
+- Bayesian optimization using a Gaussian process prior for hyperparemeter tuning, see the tutorials above on *Gradient boosting regression using XGBoost* and *Gradient boosting classification using XGBoost*, respectively.
 
 ## Dimensionality reduction
 *TODO*
