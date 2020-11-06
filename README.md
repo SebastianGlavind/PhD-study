@@ -88,7 +88,7 @@ The following tutorials are implemented in Python;
 
 ## Hyperparameter tuning, model selection and AutoML 
 
-- Random-search for hyperparemeter tuning, see the tutorials above on *Neural network regression using keras and tensorflow* and *Neural network classification using keras and tensorflow*, respectively.
+- Random search for hyperparemeter tuning, see the tutorials above on *Neural network regression using keras and tensorflow* and *Neural network classification using keras and tensorflow*, respectively.
 
 - Bayesian optimization using a Gaussian process prior for hyperparemeter tuning, see the tutorials above on *Gradient boosting regression using XGBoost* and *Gradient boosting classification using XGBoost*, respectively.
 
