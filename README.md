@@ -51,6 +51,8 @@ The following tutorials are implemented in Python;
 
 The following tutorials are implemented in Python;
 
+- [An intuitive introduction to Gaussian processes - Gaussian processes as the generalization of Gaussian probability distributions](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-processes/GPintro_intuitive.ipynb). In this tutorial, we will consider how to generalize the Gaussian probability distribution to infinite dimensions to approach the Gaussian process. The tutorial is intuitive in the sense that we will consider graphics instead of proofs to motivate the transition from the finite dimensional Gaussian probability distribution to the Gaussian process.
+
 - [Gaussian process regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-processes/GPR.ipynb). This tutorial introduces Gaussian process regression; first, in a single-output setting, and second, in a multi-output setting. For the single-output case, the tutorial implements a selection of different learning algorithms, and some of the capabilities of the open source software package [`GPy`](https://sheffieldml.github.io/GPy/) are demonstrated for both cases.
 
 - Bayesian optimization using a Gaussian process prior for hyperparemeter tuning, see the tutorials above on *Gradient boosting regression using XGBoost* and *Gradient boosting classification using XGBoost*, respectively.
