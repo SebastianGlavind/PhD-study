@@ -96,7 +96,7 @@ The following tutorials are implemented in Python;
 
 *TODO*
 - *A tutorial on Hyperopt for hyperparameter selection.*
-- *A tutorial on AutoML with tensorfolw.*
+- *A tutorial on AutoML with tensorflow.*
 
 ## Dimensionality reduction
 *TODO*
