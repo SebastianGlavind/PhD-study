@@ -9,6 +9,8 @@ The following toolboxes and tutorials are implemented in R;
 
 ### Toolboxes
 
+The toolboxes are used in Glavind and Faber (2018), and Glavind and Faber (2019).
+
 - [Structure learning and dynamic discretization toolbox - `sLearningAndDiscretizationTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/sLearningAndDiscretizationTools.R). The toolbox is a wrapper for the [`bnlearn`](https://www.bnlearn.com/) package, which implements the underlaying score-based routines for structure learning.
 
 - [Parameter learning toolbox - `pLearningTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/pLearningTools.R). The toolbox is a wrapper for the [`bnlearn`](https://www.bnlearn.com/) package.
@@ -45,7 +47,7 @@ The following tutorials are implemented in Python;
 
 The following tutorials are implemented in Python;
 
-- [Bayesian hierarchical models with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Hierarchical-models/HierModel_OMAE2020.ipynb). This tutorial show how to implement Bayesian hierarchical regression models using the probabilistic programming language [Stan](https://mc-stan.org/) by considering the fatigue data set studied Glavind et al. (2020).  
+- [Bayesian hierarchical models with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Hierarchical-models/HierModel_OMAE2020.ipynb). This tutorial shows how to implement Bayesian hierarchical regression models using the probabilistic programming language [Stan](https://mc-stan.org/) by considering the fatigue data set studied Glavind et al. (2020).  
 
 ## Gaussian processes
 
@@ -104,5 +106,10 @@ The following tutorials are implemented in Python;
 
 ## References
 ***
+Sebastian T. Glavind and Michael H. Faber, “A framework for offshore load environment modeling”, in proceedings of the ASME 2018 37th International Conference on Ocean, Offshore and Arctic Engineering (OMAE2018), OMAE2018-77674, 2018.
+
+Sebastian T. Glavind and Michael H. Faber, “A framework for offshore load environment modeling”, Journal of Offshore Mechanics and Arctic Engineering, vol. 142, no. 2,
+pp. 021702, OMAE-19-1059, 2019.
+
 Sebastian T. Glavind, Henning Brüske and Michael H. Faber, “On normalized fatigue crack growth modeling”, in proceedings of the ASME 2020 39th International Conference on Ocean, Offshore and Arctic Engineering (OMAE2020), OMAE2020-18613, 2020.
 ***
