@@ -95,7 +95,7 @@ The following tutorials are implemented in Python;
 - Bayesian optimization using a Gaussian process prior for hyperparemeter tuning, see the tutorials above on *Gradient boosting regression using XGBoost* and *Gradient boosting classification using XGBoost*, respectively.
 
 *TODO*
-- *A tutorial on Hyperopt for hyperparameter selection.*
+- *A tutorial on Auto ML with Hyperopt.*
 - *A tutorial on AutoML with tensorflow.*
 
 ## Dimensionality reduction
