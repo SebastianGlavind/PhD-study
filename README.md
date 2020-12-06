@@ -43,6 +43,9 @@ The following tutorials are implemented in Python;
 
 - [EM for Bayesian linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/exEM_BayesLinReg.ipynb). This tutorial considers how the expectation maximization (EM) algorithm may be used to learn a parameter setting for a Bayesian linear regression model.
 
+*TODO*
+- *Linear regression - assumptions and interpretations*
+
 ## Bayesian hierarchical models
 
 The following tutorials are implemented in Python;
@@ -59,6 +62,12 @@ The following tutorials are implemented in Python;
 
 - Bayesian optimization using a Gaussian process prior for hyperparemeter tuning, see the tutorials above on *Gradient boosting regression using XGBoost* and *Gradient boosting classification using XGBoost*, respectively.
 
+*TODO*
+- *Kernel design*
+- *GPs for classification*
+- *Bayesian optimization using a GP prior*
+- *GPs for time series analysis*
+
 ## Neural networks
 
 The following tutorials are implemented in Python;
@@ -73,7 +82,6 @@ The following tutorials are implemented in Python;
 
 - [Gradient boosting regression using XGBoost](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMReg_BostonHousing.ipynb). This tutorial introduces gradient boosting regression with [`XGBoost`](https://xgboost.readthedocs.io/en/latest/) by considering the Boston housing data set. The tutorial first study how gradient boosting is implemented in a single-output setting as well as the effect of different data pre-processing steps. Then, it is shown how gradient boosting may be extended to a multi-output setting. Finally, the tutorial considers hyperparameters tuning in general models using Bayesian optimization with a Gaussian process prior based [`GPyOpt`](https://github.com/SheffieldML/GPyOpt). 
  
-
 - [Gradient boosting classification using XGBoost](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMClas_Wine.ipynb). This tutorial introduces gradient boosting classification with [`XGBoost`](https://xgboost.readthedocs.io/en/latest/) by considering the Wine recognition data set. The tutorial first study how gradient boosting is implemented as well as the effect of different data pre-processing steps. Then, the tutorial considers hyperparameters tuning in general models using Bayesian optimization with a Gaussian process prior based [`GPyOpt`](https://github.com/SheffieldML/GPyOpt). Finally, the tutorial elaborates on the feature importance functionalities of `XGBoost`.
 
 ## Gaussian mixture models
