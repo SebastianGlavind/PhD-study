@@ -84,9 +84,9 @@ The following tutorials are implemented in Python;
 - [Gradient boosting classification using XGBoost](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMClas_Wine.ipynb). This tutorial introduces gradient boosting classification with [`XGBoost`](https://xgboost.readthedocs.io/en/latest/) by considering the Wine recognition data set. The tutorial first study how gradient boosting is implemented as well as the effect of different data pre-processing steps. Then, the tutorial considers hyperparameters tuning in general models using Bayesian optimization with a Gaussian process prior based [`GPyOpt`](https://github.com/SheffieldML/GPyOpt). Finally, the tutorial elaborates on the feature importance functionalities of `XGBoost`.
 
 *TODO*
-- *Base-learner: CARTs - classification and regression trees*
-- *Random forest models*
-- *Gradient boositing from scratch / understanding Gradient boosting machines*
+- *A tutorial on the base-learner, i.e. CARTs - classification and regression trees*
+- *A tutorial on Random forest models*
+- *A tutorial on Gradient boositing from scratch / understanding Gradient boosting machines*
 
 ## Gaussian mixture models
 
