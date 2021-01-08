@@ -102,7 +102,7 @@ The following tutorials are implemented in Python;
 
 - [Variance-based sensitivity analysis for correlated inputs](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Sensitivity-analysis/SA_varianceBased_correlatedInputs.ipynb). This tutorial implements a set of methods, which are applicable when the inputs are correlated. First, two surrogate-based methods are considered; the first method decomposed the variance based on (linear) regression considerations, and the second method decomposes the variance based on a polynomial chaos expansion. Second, two simulation-based methods are introduced; the first method performs conditional sampling by binning the input space, and the second method performs conditional sampling for randomly sampled input realizations.  
 
-## Hyperparameter tuning, model selection and automated machine learning (AutoML)
+## Hyperparameter tuning, model selection and automated machine learning~(AutoML)
 
 - Random search for hyperparemeter tuning, see the tutorials above on *Neural network regression using keras and tensorflow* and *Neural network classification using keras and tensorflow*, respectively.
 
