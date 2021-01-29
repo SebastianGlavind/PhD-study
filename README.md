@@ -45,6 +45,9 @@ The following tutorials are implemented in Python;
 
 - [EM for Bayesian linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/exEM_BayesLinReg.ipynb). This tutorial considers how the expectation maximization (EM) algorithm may be used to learn a parameter setting for a Bayesian linear regression model.
 
+*TODO*
+- *Include logistic regression*
+
 ## Bayesian hierarchical models
 
 The following tutorials are implemented in Python;
@@ -64,8 +67,9 @@ The following tutorials are implemented in Python;
 *TODO*
 - *Kernel design*
 - *GPs for classification*
-- *Bayesian optimization using a GP prior*
+- *Bayesian optimization using a GP prior from scratch*
 - *GPs for time series analysis*
+- *GP fitting using conjugate gradients in Gaussian process regression*
 
 ## Neural networks
 
