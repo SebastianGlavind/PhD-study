@@ -9,7 +9,7 @@ The following toolboxes and tutorials are implemented in R;
 
 ### Toolboxes
 
-The toolboxes are used in Glavind and Faber (2018), and Glavind and Faber (2019).
+The toolboxes are used in Glavind and Faber (2018), and Glavind and Faber (2020).
 
 - [Structure learning and dynamic discretization toolbox - `sLearningAndDiscretizationTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/sLearningAndDiscretizationTools.R). The toolbox is a wrapper for the [`bnlearn`](https://www.bnlearn.com/) package, which implements the underlaying score-based routines for structure learning.
 
@@ -125,7 +125,7 @@ The following tutorials are implemented in Python;
 Sebastian T. Glavind and Michael H. Faber, “A framework for offshore load environment modeling”, in proceedings of the ASME 2018 37th International Conference on Ocean, Offshore and Arctic Engineering (OMAE2018), OMAE2018-77674, 2018.
 
 Sebastian T. Glavind and Michael H. Faber, “A framework for offshore load environment modeling”, Journal of Offshore Mechanics and Arctic Engineering, vol. 142, no. 2,
-pp. 021702, OMAE-19-1059, 2019.
+pp. 021702, OMAE-19-1059, 2020.
 
 Sebastian T. Glavind, Henning Brüske and Michael H. Faber, “On normalized fatigue crack growth modeling”, in proceedings of the ASME 2020 39th International Conference on Ocean, Offshore and Arctic Engineering (OMAE2020), OMAE2020-18613, 2020.
 ***
