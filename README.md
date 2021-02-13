@@ -69,7 +69,6 @@ The following tutorials are implemented in Python;
 - *GPs for classification*
 - *Bayesian optimization using a GP prior from scratch*
 - *GPs for time series analysis*
-- *GP fitting using conjugate gradients in Gaussian process regression*
 
 ## Neural networks
 
