@@ -83,6 +83,12 @@ The following tutorials are implemented in Python;
 
 - [EM for Gaussian mixtures](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-mixtures/exEM_GMMs.ipynb). This tutorial considers how Gaussian mixture models may be used for cluster analysis; it implements the expectation maximization (EM) learning algorithm, and introduces the evidence lower bound, as well as the Bayesian information criterion (BIC) and the integrated complete-data likelihood (ICL), for model selection.
 
+## Algorithms for optimization
+
+The following tutorials are implemented in Python;
+
+- [Unconstrained, continuous-valued optimization](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Optimization/Optimization_con_uncon.ipynb). This tutorial considers set of local and global optimization algorithms for unconstrained, continuous-valued optimization. The algorithms covered includes first-order methods, e.g., Gradient decent and its variations; second-order methods, i.e. Newton's method and quasi-Newton methods (DFP and BFGS); ... (more will follow).
+
 ## Sensitivity analysis and feature selection
 
 The following tutorials are implemented in Python;
