@@ -1,7 +1,7 @@
 # PhD study
 
 This repository contains some toolboxes and code examples developed during my PhD study at Aalborg University. Its main purpose is to support my PhD thesis, but it also contains some tutorials developed for teaching on related topics. The links below display 
-the tutorials via [nbviewer](https://nbviewer.jupyter.org/) to ensure a proper rendering of formulas.
+the tutorials via [nbviewer](https://nbviewer.jupyter.org/) to ensure a proper rendering of the formulas.
 
 ## Bayesian networks
 
@@ -9,7 +9,7 @@ The following toolboxes and tutorials are implemented in R;
 
 ### Toolboxes
 
-The toolboxes are used in Glavind and Faber (2018), and Glavind and Faber (2020).
+The toolboxes are among others used in Glavind and Faber (2018), and Glavind and Faber (2020).
 
 - [Structure learning and dynamic discretization toolbox - `sLearningAndDiscretizationTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/sLearningAndDiscretizationTools.R). The toolbox is a wrapper for the [`bnlearn`](https://www.bnlearn.com/) package, which implements the underlaying score-based routines for structure learning.
 
@@ -41,7 +41,7 @@ The following tutorials are implemented in Python;
 
 - [Linear regression - assumptions and interpretations](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/LinReg_assumptionsEtc.ipynb). This notebook considers and assesses the underlaying assumptions of linear regression in detail and discusses the interpretation of these models. 
 
-- [Bayesian linear regression with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/exStan_BayesLinReg.ipynb). This tutorial shows how to implement Bayesian linear regression models using the probabilistic programming language [Stan](https://mc-stan.org/). Moreover, the concept of Bayesian model averaging is introduced as a means for making inferences for new out-of-sample fatigue sensitive details.
+- [Bayesian linear regression with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/exStan_BayesLinReg.ipynb). This tutorial shows how to implement Bayesian linear regression models using the probabilistic programming language [Stan](https://mc-stan.org/). 
 
 - [EM for Bayesian linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/exEM_BayesLinReg.ipynb). This tutorial considers how the expectation maximization (EM) algorithm may be used to learn a parameter setting for a Bayesian linear regression model.
 
@@ -49,7 +49,7 @@ The following tutorials are implemented in Python;
 
 The following tutorials are implemented in Python;
 
-- [Bayesian hierarchical models with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Hierarchical-models/HierModel_OMAE2020.ipynb). This tutorial shows how to implement Bayesian hierarchical regression models using the probabilistic programming language [Stan](https://mc-stan.org/) by considering the fatigue data set studied Glavind et al. (2020).  
+- [Bayesian hierarchical models with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Hierarchical-models/HierModel_OMAE2020.ipynb). This tutorial introduces how to implement Bayesian hierarchical regression models using the probabilistic programming language [Stan](https://mc-stan.org/) by studying the fatigue data set in Glavind et al. (2020). Moreover, the concept of Bayesian model averaging is introduced as a means for making inferences for new out-of-sample fatigue sensitive details. 
 
 ## Gaussian processes
 
