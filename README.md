@@ -23,7 +23,7 @@ The toolboxes are among others used in Glavind and Faber (2018), and Glavind and
 
 ### Parameter learning
 
-- [Bayesian networks - parameter learning from complete data](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/BNs_pLearn_fullyObs.ipynb). This tutorial demonstrates how to learn the parameters of a Bayesian network (BN) representation from complete / fully observed data, using my toolbox [`pLearningTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/pLearningTools.R). 
+- [Bayesian networks - parameter learning from complete data](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/BNs_pLearn_fullyObs.ipynb). This tutorial demonstrates how to learn the parameters of a Bayesian network (BN) representation from complete / fully observed data using my toolbox [`pLearningTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/pLearningTools.R). 
 
 - [Bayesian networks - EM for parameter learning from incomplete data](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/BNs_pLearn_EM_partiallyObs.ipynb). This tutorial demonstrates how to learn the parameters of a Bayesian network (BN) representation from incomplete / partially observed data using the expectation-maximization (EM) algorithm. An implementation of the EM algorithm is found in my toolbox [`pLearningTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/pLearningTools.R). 
 
