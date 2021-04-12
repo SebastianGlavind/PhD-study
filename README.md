@@ -59,7 +59,7 @@ The following tutorials are implemented in Python;
 
 - [Gaussian process regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-processes/GPR.ipynb). This tutorial introduces Gaussian process regression; first, in a single-output setting, and second, in a multi-output setting. For the single-output case, the tutorial implements a selection of different learning algorithms, and some of the capabilities of the open source software package [`GPy`](https://sheffieldml.github.io/GPy/) are demonstrated for both cases.
 
-- Bayesian optimization using a Gaussian process prior for hyperparemeter tuning, see the tutorials above on *Gradient boosting regression using XGBoost* and *Gradient boosting classification using XGBoost*, respectively.
+- Bayesian optimization using a Gaussian process prior for hyperparameter tuning, see the tutorials above on *Gradient boosting regression using XGBoost* and *Gradient boosting classification using XGBoost*, respectively.
 
 ## Neural networks
 
@@ -99,9 +99,9 @@ The following tutorials are implemented in Python;
 
 ## Hyperparameter tuning, model selection and automated machine learning (AutoML)
 
-- Random search for hyperparemeter tuning, see the tutorials above on *Neural network regression using keras and tensorflow* and *Neural network classification using keras and tensorflow*, respectively.
+- Random search for hyperparameter tuning, see the tutorials above on *Neural network regression using keras and tensorflow* and *Neural network classification using keras and tensorflow*, respectively.
 
-- Bayesian optimization using a Gaussian process prior for hyperparemeter tuning, see the tutorials above on *Gradient boosting regression using XGBoost* and *Gradient boosting classification using XGBoost*, respectively.
+- Bayesian optimization using a Gaussian process prior for hyperparameter tuning, see the tutorials above on *Gradient boosting regression using XGBoost* and *Gradient boosting classification using XGBoost*, respectively.
 
 ## References
 ***
