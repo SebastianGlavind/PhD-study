@@ -59,7 +59,7 @@ The following tutorials are implemented in Python;
 
 - [Gaussian process regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-processes/GPR.ipynb). This tutorial introduces Gaussian process regression; first, in a single-output setting, and second, in a multi-output setting. For the single-output case, the tutorial implements a selection of different learning algorithms, and some of the capabilities of the open source software package [`GPy`](https://sheffieldml.github.io/GPy/) are demonstrated for both cases.
 
-- Bayesian optimization using a Gaussian process prior for hyperparameter tuning, see the tutorials above on *Gradient boosting regression using XGBoost* and *Gradient boosting classification using XGBoost*, respectively.
+- Bayesian optimization using a Gaussian process prior for hyperparameter tuning, see the tutorials below on [*Gradient boosting regression using XGBoost*](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMReg_BostonHousing.ipynb) and [*Gradient boosting classification using XGBoost*](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMClas_Wine.ipynb), respectively.
 
 ## Neural networks
 
