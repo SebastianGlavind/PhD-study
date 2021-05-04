@@ -101,7 +101,7 @@ The following tutorials are implemented in Python;
 
 - Random search for hyperparameter tuning, see the tutorials above on *Neural network regression using keras and tensorflow* and *Neural network classification using keras and tensorflow*, respectively.
 
-- Bayesian optimization using a Gaussian process prior for hyperparameter tuning, see the tutorials above on [Gradient boosting regression using XGBoost](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMReg_BostonHousing.ipynb) and [Gradient boosting classification using XGBoost](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMClas_Wine.ipynb), respectively.
+- Bayesian optimization using a Gaussian process prior for hyperparameter tuning, see the tutorials above on [*Gradient boosting regression using XGBoost*](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMReg_BostonHousing.ipynb) and [*Gradient boosting classification using XGBoost*](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMClas_Wine.ipynb), respectively.
 
 ## References
 ***
