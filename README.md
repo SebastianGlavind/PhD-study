@@ -101,7 +101,7 @@ The following tutorials are implemented in Python;
 
 The following tutorials are implemented in Python;
 
-- [Deterministic algorithms for unconstrained, continuous-valued optimization](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Optimization/Optimization_con_uncon.ipynb). This tutorial considers set of local derivative-based optimization algorithms for unconstrained, continuous-valued optimization. The algorithms covered are first-order methods, i.e., gradient decent and its variations (e.g., conjugate gradient decent and Adam), and second-order methods, i.e. Newton's method and quasi-Newton methods (DFP and BFGS).
+- [Deterministic algorithms for unconstrained, continuous-valued optimization](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Optimization/Optimization_deter_con_uncon.ipynb). This tutorial considers set of local derivative-based optimization algorithms for unconstrained, continuous-valued optimization. The algorithms covered are first-order methods, i.e., gradient decent and its variations (e.g., conjugate gradient decent and Adam), and second-order methods, i.e. Newton's method and quasi-Newton methods (DFP and BFGS).
 
 ## References
 ***
