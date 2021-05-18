@@ -83,6 +83,14 @@ The following tutorials are implemented in Python;
 
 - [EM for Gaussian mixtures](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-mixtures/exEM_GMMs.ipynb). This tutorial considers how Gaussian mixture models may be used for cluster analysis; it implements the expectation maximization (EM) learning algorithm, and introduces the evidence lower bound, as well as the Bayesian information criterion (BIC) and the integrated complete-data likelihood (ICL), for model selection.
 
+## Algorithms for optimization
+
+The following tutorials are implemented in Python;
+
+- [Deterministic algorithms for unconstrained, continuous-valued optimization](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Optimization/Optimization_deter_con_uncon.ipynb). This tutorial considers set of local derivative-based optimization algorithms for unconstrained, continuous-valued optimization. The algorithms covered are first-order methods, i.e., gradient decent and its variations (e.g., conjugate gradient decent and Adam), and second-order methods, i.e. Newton's method and quasi-Newton methods (DFP and BFGS).
+
+- [Stochastic algorithms for unconstrained, continuous-valued optimization](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Optimization/Optimization_stoch_con_uncon.ipynb). This tutorial considers set of stochastic optimization algorithms, including population methods, for unconstrained, continuous-valued optimization. The algorithms covered are stochastic gradient decent, stochastic hill-climbing, simulated annealing, genetic algorithms, and particle swarm optimization.
+
 ## Sensitivity analysis and feature selection
 
 The following tutorials are implemented in Python;
@@ -96,12 +104,6 @@ The following tutorials are implemented in Python;
 - Random search for hyperparameter tuning, see the tutorials described above on [*Neural network regression using keras and tensorflow*](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Neural-networks/NNReg_BostonHousing.ipynb) and [*Neural network classification using keras and tensorflow*](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Neural-networks/NNClas_Wine.ipynb), respectively.
 
 - Bayesian optimization using a Gaussian process prior for hyperparameter tuning, see the tutorials described above on [*Gradient boosting regression using XGBoost*](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMReg_BostonHousing.ipynb) and [*Gradient boosting classification using XGBoost*](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMClas_Wine.ipynb), respectively.
-
-## Algorithms for optimization
-
-The following tutorials are implemented in Python;
-
-- [Deterministic algorithms for unconstrained, continuous-valued optimization](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Optimization/Optimization_deter_con_uncon.ipynb). This tutorial considers set of local derivative-based optimization algorithms for unconstrained, continuous-valued optimization. The algorithms covered are first-order methods, i.e., gradient decent and its variations (e.g., conjugate gradient decent and Adam), and second-order methods, i.e. Newton's method and quasi-Newton methods (DFP and BFGS).
 
 ## References
 ***
